@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .banner {
+        max-height: 50vh !important;
+        background-position: 0% 0% !important;
+    }
+
+    .button-see-all {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 50vh !important;
+        background-position: 0% 0% !important;
+    }
+
+    .button-see-all {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner {
+        height: 75vh !important;
+        background-position: 0% 15% !important;
+    }
+
+    .button-see-all {
+        width: 100%;
+    }
+}

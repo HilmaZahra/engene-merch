@@ -1,0 +1,139 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar */
+.nav-color {
+    background-color: rgb(70, 118, 218);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out 0.2s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.2s;
+}
+
+.quantity-notification {
+    font-size: 9px;
+    display: inline-block;
+    padding: 1px 5px;
+    background-color: rgb(108, 117, 125);
+    border-radius: 100%;
+    position: absolute;
+    top: 1;
+}
+
+.cart-item img {
+    width: 50px;
+}
+
+/* Cart */
+.shopping-cart .input-group-text {
+    font-size: 12px;
+}
+
+/* Banner */
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("image/mainbanner.png");
+    background-size: cover;
+    background-position: 0% 15%;
+    width: 100%;
+}
+
+.input-search {
+    width: 540px;
+    height: 32px;
+}
+
+/* Album */
+.button-see-all {
+    width: 180px;
+    height: 36px;
+    background-color: rgb(70, 118, 218);
+    border: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.button-see-all:hover {
+    background-color: rgb(50, 90, 180);
+}
+
+.opacity-50 {
+    filter: brightness(50%);
+    transition: filter 0.3s;
+}
+
+#albumContainer {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#albumContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#albumContainer .col {
+    flex: 0 0 auto;
+    width: 240px;
+    overflow: hidden;
+}
+
+.card-album {
+    height: 405px;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-album:hover {
+    transform: scale(1.05);
+}
+
+/* Recommended */
+.recommended-1 {
+    background-image: url("image/billboard-korea.png");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+    transition: all ease-in-out 0.2s;
+}
+
+.recommended-2 {
+    background-image: url("image/official-lightstick.png");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+    transition: all ease-in-out 0.2s;
+}
+
+.recommended-1:hover,
+.recommended-2:hover {
+    transform: scale(1.02);
+}
+
+/* Top Seller */
+.card {
+    overflow: hidden;
+    transition: all ease-in-out 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* About */
+.button-artist-info {
+    width: 180px;
+    height: 36px;
+    background-color: rgb(70, 118, 218);
+    border: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.button-artist-info:hover {
+    background-color: rgb(50, 90, 180);
+}
